@@ -1,0 +1,13 @@
+#input an int
+number = int(input())
+#seperate all the digits
+digit1 = number%10
+digit2 = (number%100 - digit1)/10
+digit3 = (number%1000 - digit2*10 - digit1)/100
+digit4 = (number - digit3*100 -digit2*10 - digit1)/1000
+#add up all the digits
+add = digit1 + digit2 + digit3 + digit4
+#However,add is a float and the requirement need to output an integer
+answer = int(add)
+#output the answer
+print(answer)
