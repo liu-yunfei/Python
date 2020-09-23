@@ -9,8 +9,9 @@ plus one.
 #lowercase)
 Then move to the second character While reaching
 the end, print the integer variation.
+
 Q4
-Input an unsigned integer
+Input an unsigned integer larger than 2
 Generate a trial integer
 initialize the trial integer into 2
 while the input integer is larger the trial integer:
@@ -21,7 +22,24 @@ else
 plus one to the trial integer
 output “It’s a prime.”
 end the program
+
 I think it is not efficient, because it has to do as many times of adding and dividing as
 the input integer value. And we have already known that only even number except 2
 can be a prime. so we can just examine the odd number (except 2) and use odd to take
 the try. This could decrease about a half of calculating works. 
+
+Add Python code for question 4
+
+import sys
+TestNumber = int(input("Input an integer: "))
+if TestNumber < 2:
+    print("Please input an integer which is larger than 2")
+    sys.exit(1)
+TrialNumber = 2
+while TestNumber > TrialNumber:
+    if (TestNumber%TrialNumber) == 0:
+        print("It's not a prime.")
+        sys.exit(0)
+    else: 
+        TrialNumber = TrialNumber + 1
+print("It's a prime.")
