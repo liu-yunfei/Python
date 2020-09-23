@@ -1,5 +1,5 @@
 Q3
-Firstly, create an integer variation to store the English letter number and initialize it into
+Firstly, create an integer variable to store the English letter number and initialize it into
 0.
 Then, read the string by the first character.
 Transform the character into ASCII code.
