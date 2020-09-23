@@ -1,4 +1,17 @@
 #Please read the disclaimer
+'''Another example
+#input a four-digit long integer
+Number = int(input())
+#sperate digits by floor division
+Digit1 = Number//1000
+Digit2 = Number//100 - Digit1*10
+Digit3 = Number//10 - Digit1*100 - Digit2*10
+Digit4 = Number - Digit1*1000 - Digit2*100 - Digit3*10
+#add up the digits
+Sum = Digit1 + Digit2 + Digit3 + Digit4
+#output the answer
+print(Sum)
+'''
 
 #input an int
 number = int(input())
