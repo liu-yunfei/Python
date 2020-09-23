@@ -1,0 +1,12 @@
+Please read the disclaimer first.
+
+Firstly, create an integer variable to store the English letter number and initialize it into
+0.
+Then, read the string by the first character.
+Transform the character into ASCII code.
+If the ASCII code is between 65-122 (including 65 and 122) then the integer variation
+plus one.
+#That means this character is an English alphabet (including uppercase and
+#lowercase)
+Then move to the second character While reaching
+the end, print the integer variation.
