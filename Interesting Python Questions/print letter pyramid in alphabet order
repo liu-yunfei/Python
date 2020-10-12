@@ -1,3 +1,7 @@
+# Written by Yunfei LIU
+# Oct 8, 2020
+# Please obey the license GPLv3
+
 #Input a char
 char = input("Input a letter: ")
 num = ord(char)
