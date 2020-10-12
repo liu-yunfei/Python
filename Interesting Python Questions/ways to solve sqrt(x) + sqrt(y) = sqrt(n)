@@ -1,3 +1,7 @@
+# Written by Yunfei LIU
+# Oct 8, 2020
+# Please obey the license GPLv3
+
 #Get the input for the puzzle
 n = int(input('Enter n: '))
 x = y = 1
