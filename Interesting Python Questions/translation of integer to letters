@@ -1,3 +1,7 @@
+# Written by Yunfei LIU
+# Oct 8, 2020
+# Please obey the license GPLv3
+
 #Create a function to meet the requirement of the question
 def chr8(n):
     Dec = 0
