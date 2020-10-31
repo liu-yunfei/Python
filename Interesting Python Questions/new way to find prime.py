@@ -1,4 +1,4 @@
-#Input an integer and print all primes smaller than it
+﻿#Input an integer and print all primes smaller than it
 print('Written by Yunfei LIU\nOct 12, 2020')
 Max = int(input('Please input an integer: '))
 #Use sieve of Eratosthenes to find primes

@@ -1,4 +1,4 @@
-# Written by Yunfei LIU
+﻿# Written by Yunfei LIU
 # Oct 8, 2020
 # Please obey the license GPLv3
 
@@ -21,7 +21,7 @@ for i in range(n):
     y += 1
 
 
-Another more effective way
+#Another more effective way
 
 #Create a function to meet the requirement
 def iszero(test):
