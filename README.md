@@ -1,4 +1,4 @@
-Disclaimer of Liability
+# Disclaimer of Liability
 
 The material and information contained on this website is for general information purposes only.You should not rely upon the material or information on the website as a basis for making any business, legal or any other decisions.
 
